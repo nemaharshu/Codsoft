@@ -1,0 +1,16 @@
+A = int(input("Enter first number: "))
+B=int(input("Second  Number: "))
+
+Choice=int(input("Select Operation Form below\n1.Additon\n2.Subration\n3.Multiplication\n4.Dovosion\nEnter Your Choice:   "))
+
+if Choice==1:
+    print("Addition of ", A,"And ",B, "is", A + B)
+elif Choice==2:
+    print("Subraction of your value is ", A-B)
+elif Choice==3:
+    print("Multiplication of your value is ", A*B)
+elif Choice==4:
+    print("Division of your value is ", A/B)
+else:
+    print("Invalid Choice, Please try again")
+print("Exiting the calculator")
