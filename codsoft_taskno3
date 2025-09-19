@@ -1,0 +1,12 @@
+import random 
+
+a="abcdefghijklmnopqrstuvwxyz"
+b="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+c="0123456789"
+d="@#%&"
+Length = int(input("Enter Desired Length of Password: "))
+
+for lenght in range(Length):
+    s=a+b+c+d
+    password="".join(random.sample(s,Length))
+print("Your Password is: ", password)
